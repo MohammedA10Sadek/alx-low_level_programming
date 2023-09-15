@@ -3,7 +3,7 @@
 /**
  * print_line - print _ lines
  * use only _purchar
- * @n the times should _be printed
+ * @n: the times should _be printed
  *
  * Return: void
 */
