@@ -3,7 +3,7 @@
 /**
  * _strlem_recursion - a function that does strlen work
  * @s: the string
- * Return: l
+ * Return: l or 0
 */
 
 int _strlen_recursion(char *s)
@@ -12,7 +12,7 @@ int _strlen_recursion(char *s)
 
 	if (*s == '\0')
 	{
-		return;
+		return (0);
 	}
 	l += 1;
 	_strlen_recursion(s + 1);
