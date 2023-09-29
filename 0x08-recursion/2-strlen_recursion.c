@@ -1,10 +1,14 @@
 #include "main.h"
 
-/***/
+/**
+ * _strlem_recursion - a function that does strlen work
+ * @s: the string
+ * Return: l
+*/
 
 int _strlen_recursion(char *s)
 {
-	int l = 0
+	int l = 0;
 
 	if (*s == '\0')
 	{
